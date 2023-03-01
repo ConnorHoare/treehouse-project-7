@@ -3,6 +3,7 @@ import './App.css';
 import SearchForm from './components/SearchForm';
 import Navbar from './components/Nabar';
 import Photo from './components/Photo';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <SearchForm />
         <Navbar />
         <Photo />
+        <NotFound />
     </div>
   );
 }
