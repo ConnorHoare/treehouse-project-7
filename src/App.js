@@ -4,8 +4,12 @@ import SearchForm from './components/SearchForm';
 import Navbar from './components/Nabar';
 import Photo from './components/Photo';
 import NotFound from './components/NotFound';
+import { apiKey } from './config';
 
 function App() {
+
+  const flickrAPI = apiKey;
+
   return (
     <div className="App">
         <SearchForm />
